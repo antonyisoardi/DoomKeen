@@ -1,0 +1,15 @@
+{
+  "name": "commander-doom",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Commander Doom: a Doom-themed Commander Keen 1 style side-scrolling platformer",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "check-levels": "node tools/check-levels.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

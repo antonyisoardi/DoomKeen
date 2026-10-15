@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Commander Doom</title>
+  <style>
+    html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+    body { display: flex; align-items: center; justify-content: center; }
+    canvas { display: block; image-rendering: pixelated; image-rendering: crisp-edges; outline: none; }
+    #error { position: absolute; top: 8px; left: 8px; right: 8px; color: #ff5555; font: 14px monospace; white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+  <canvas id="screen" width="320" height="200" tabindex="0"></canvas>
+  <div id="error" role="alert"></div>
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>
