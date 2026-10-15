@@ -1,5 +1,10 @@
 # Commander Doom — Episode One: Marooned on Phobos
 
+[![CI](https://github.com/antonyisoardi/DoomKeen/actions/workflows/ci.yml/badge.svg)](https://github.com/antonyisoardi/DoomKeen/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
+**[▶ Play in your browser](https://antonyisoardi.github.io/DoomKeen/)**
+
 A Commander Keen 1 style side-scroller wearing Doom's armour. You get Keen's
 320×200 EGA look, momentum, hold-to-jump-higher, pogo stick, raygun and one-hit
 deaths, all set across the UAC base on Phobos (E1M1 Hangar → E1M8 Phobos Anomaly).
@@ -8,7 +13,7 @@ Billy Blaze's grandson was on a UAC school trip when the gates of Hell opened.
 The demons stole four parts of his Bean-with-Bacon Megarocket. Find the parts,
 then get back to the ship.
 
-## Play
+## Play locally
 
 ```bash
 npm start
@@ -77,3 +82,16 @@ src/
 `R/U/Y` red/blue/yellow door · `r/u/y` keycards · `E` exit (2 tall) · `X` boss gate ·
 `@` start · `a h s m` bonuses · `c` clip · `S` soulsphere · `g` pogo · `1-4` parts ·
 `z i p l V` zombieman/imp/pinky/lost soul/baron · `w L | T` decorations
+
+## Contributing
+
+Bug reports, levels and tweaks are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## License and disclaimer
+
+Code, art and music are released under the [MIT License](LICENSE).
+
+Commander Doom is an unofficial fan tribute. It is not affiliated with or
+endorsed by id Software, Bethesda, ZeniMax, Microsoft or Apogee. Doom and
+Commander Keen are trademarks of their respective owners, and no original game
+assets are used.

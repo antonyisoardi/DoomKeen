@@ -4,6 +4,25 @@
   "private": true,
   "type": "module",
   "description": "Commander Doom: a Doom-themed Commander Keen 1 style side-scrolling platformer",
+  "keywords": [
+    "doom",
+    "commander-keen",
+    "platformer",
+    "game",
+    "canvas",
+    "retro",
+    "ega"
+  ],
+  "homepage": "https://antonyisoardi.github.io/DoomKeen/",
+  "bugs": {
+    "url": "https://github.com/antonyisoardi/DoomKeen/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonyisoardi/DoomKeen.git"
+  },
+  "license": "MIT",
+  "author": "Antony Isoardi",
   "scripts": {
     "start": "node server.js",
     "test": "node --test",
